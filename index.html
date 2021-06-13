@@ -32,6 +32,24 @@
     <button data-number>.</button>
     <button data-number>0</button>
     <button data-equals class="span-two">=</button>
+    <button onclick="myFunction()">Extra</button>
+
+    <div id="myDIV">
+      <button data-operation="^"></button>
+      <button data-operation="%"></button>
+      kAQ Mjafton
+    </div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
   </div>
 </body>
 </html>
